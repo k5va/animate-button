@@ -1,7 +1,12 @@
+import { Button } from '../index';
 import styles from './App.module.scss';
 
 function App() {
-  return <div className={styles.container}>App...</div>;
+  return (
+    <div className={styles.container}>
+      <Button>Click me</Button>
+    </div>
+  );
 }
 
-export default App;
+export { App };
